@@ -1,0 +1,602 @@
+Launching defaultServer (WebSphere Application Server 18.0.0.2/wlp-1.0.21.cl180220180619-0403) on IBM J9 VM, version 8.0.5.20 - pxa6480sr5fp20-20180802_01(SR5 FP20) (en_US)
+[AUDIT   ] CWWKE0001I: The server defaultServer has been launched.
+[AUDIT   ] CWWKE0100I: This product is licensed for development, and limited production use. The full license terms can be viewed here: https://public.dhe.ibm.com/ibmdl/export/pub/software/websphere/wasdev/license/base_ilan/ilan/18.0.0.2/lafiles/en.html
+[AUDIT   ] CWWKZ0058I: Monitoring dropins for applications.
+[AUDIT   ] CWWKS4104A: LTPA keys created in 1.834 seconds. LTPA key file: /root/app/mc-target/liberty/wlp/usr/servers/defaultServer/resources/security/ltpa.keys
+[AUDIT   ] CWWKT0016I: Web application available (default_host): http://mc-testproject1-ee186d30-aba2-11e8-a6c1-idc-5686fc656d-gsfrm:9080/jwt/
+[AUDIT   ] CWWKT0016I: Web application available (default_host): http://mc-testproject1-ee186d30-aba2-11e8-a6c1-idc-5686fc656d-gsfrm:9080/health/
+[AUDIT   ] CWWKT0016I: Web application available (default_host): http://mc-testproject1-ee186d30-aba2-11e8-a6c1-idc-5686fc656d-gsfrm:9080/ibm/api/
+[AUDIT   ] CWWKT0016I: Web application available (default_host): http://mc-testproject1-ee186d30-aba2-11e8-a6c1-idc-5686fc656d-gsfrm:9080/metrics/
+[AUDIT   ] CWWKT0016I: Web application available (default_host): http://mc-testproject1-ee186d30-aba2-11e8-a6c1-idc-5686fc656d-gsfrm:9080/javametrics-dash/
+[AUDIT   ] CWWKZ0001I: Application javametrics-dash started in 1.368 seconds.
+[AUDIT   ] CWWKT0016I: Web application available (default_host): http://mc-testproject1-ee186d30-aba2-11e8-a6c1-idc-5686fc656d-gsfrm:9080/javametrics/
+[AUDIT   ] CWWKZ0001I: Application javametrics-rest started in 1.395 seconds.
+[AUDIT   ] CWWKT0016I: Web application available (default_host): http://mc-testproject1-ee186d30-aba2-11e8-a6c1-idc-5686fc656d-gsfrm:9080/testproject1/
+[AUDIT   ] CWWKZ0001I: Application testproject1 started in 2.892 seconds.
+[AUDIT   ] CWWKF0012I: The server installed the following features: [microProfile-1.2, jsp-2.3, managedBeans-1.0, mpFaultTolerance-1.0, servlet-3.1, ssl-1.0, jndi-1.0, mpHealth-1.0, appSecurity-2.0, jsonp-1.0, mpConfig-1.1, jaxrs-2.0, el-3.0, jaxrsClient-2.0, concurrent-1.0, jwt-1.0, mpMetrics-1.0, mpJwt-1.0, json-1.0, cdi-1.2, distributedMap-1.0, websocket-1.1].
+[AUDIT   ] CWWKF0011I: The server defaultServer is ready to run a smarter planet.
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[AUDIT   ] CWPKI0817A: The default SSL configuration expects a <keyStore> element with an id value of defaultKeyStore, and a password. The defaultKeyStore <keyStore> element is missing, or the password is not specified. If SSL is not required, this message can be ignored. If SSL is required, either define the missing element: <keyStore id="defaultKeyStore" password="yourpassword" />, or change the default SSL configuration to use an existing keystore. See the following example: <ssl id="defaultSSLConfig" keyStoreRef="newKeyStore" />.
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[err] java.io.IOException: Connection timed out
+[err] 	at sun.nio.ch.FileDispatcherImpl.writev0(Native Method)
+[err] 	at sun.nio.ch.SocketDispatcher.writev(SocketDispatcher.java:63)
+[err] 	at sun.nio.ch.IOUtil.write(IOUtil.java:160)
+[err] 	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:518)
+[err] 	at java.nio.channels.SocketChannel.write(SocketChannel.java:513)
+[err] 	at com.ibm.ws.tcpchannel.internal.NioSocketIOChannel.write(NioSocketIOChannel.java:205)
+[err] 	at com.ibm.ws.tcpchannel.internal.NioSocketIOChannel.attemptWriteToSocketUsingNIO(NioSocketIOChannel.java:169)
+[err] 	at com.ibm.ws.tcpchannel.internal.SocketIOChannel.attemptWriteToSocket(SocketIOChannel.java:197)
+[err] 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.attemptIO(WorkQueueManager.java:592)
+[err] 	at com.ibm.ws.tcpchannel.internal.WorkQueueManager.processWork(WorkQueueManager.java:301)
+[err] 	at com.ibm.ws.tcpchannel.internal.NioTCPWriteRequestContextImpl.processSyncWriteRequest(NioTCPWriteRequestContextImpl.java:65)
+[err] 	at com.ibm.ws.tcpchannel.internal.TCPWriteRequestContextImpl.write(TCPWriteRequestContextImpl.java:96)
+[err] 	at com.ibm.ws.wsoc.MessageWriter.WriteMessageSync(MessageWriter.java:107)
+[err] 	at com.ibm.ws.wsoc.MessageWriter.WriteMessage(MessageWriter.java:72)
+[err] 	at com.ibm.ws.wsoc.MessageWriter.WriteMessage(MessageWriter.java:51)
+[err] 	at com.ibm.ws.wsoc.LinkWrite.writeBuffer(LinkWrite.java:176)
+[err] 	at com.ibm.ws.wsoc.WsocConnLink.writeBufferForBasicRemoteSync(WsocConnLink.java:1066)
+[err] 	at com.ibm.ws.wsoc.RemoteEndpointBasicImpl.sendTextCommon(RemoteEndpointBasicImpl.java:218)
+[err] 	at com.ibm.ws.wsoc.RemoteEndpointBasicImpl.sendText(RemoteEndpointBasicImpl.java:195)
+[err] 	at com.ibm.ws.wsoc.external.RemoteEndpointBasicExt.sendText(RemoteEndpointBasicExt.java:107)
+[err] 	at com.ibm.javametrics.web.JavametricsWebSocket.lambda$emit$0(JavametricsWebSocket.java:77)
+[err] 	at com.ibm.javametrics.web.JavametricsWebSocket$$Lambda$26.00000000280D6E70.accept(Unknown Source)
+[err] 	at java.lang.Iterable.forEach(Iterable.java:86)
+[err] 	at com.ibm.javametrics.web.JavametricsWebSocket.emit(JavametricsWebSocket.java:74)
+[err] 	at com.ibm.javametrics.web.DataHandler.lambda$emit$0(DataHandler.java:84)
+[err] 	at com.ibm.javametrics.web.DataHandler$$Lambda$25.00000000280D6AC0.accept(Unknown Source)
+[err] 	at java.lang.Iterable.forEach(Iterable.java:86)
+[err] 	at com.ibm.javametrics.web.DataHandler.emit(DataHandler.java:83)
+[err] 	at com.ibm.javametrics.web.DataHandler.emitHttp(DataHandler.java:178)
+[err] 	at com.ibm.javametrics.web.DataHandler.processData(DataHandler.java:116)
+[err] 	at com.ibm.javametrics.client.ApiDataListener.receive(ApiDataListener.java:29)
+[err] 	at com.ibm.javametrics.impl.JavametricsImpl.receiveData(JavametricsImpl.java:69)
+[err] 	at com.ibm.javametrics.agent.JavaAgent.lambda$emit$1(JavaAgent.java:96)
+[err] 	at com.ibm.javametrics.agent.JavaAgent$$Lambda$20.0000000028098C60.accept(Unknown Source)
+[err] 	at java.lang.Iterable.forEach(Iterable.java:86)
+[err] 	at com.ibm.javametrics.agent.JavaAgent.emit(JavaAgent.java:95)
+[err] 	at com.ibm.javametrics.agent.JavaAgent.drainBatched(JavaAgent.java:89)
+[err] 	at com.ibm.javametrics.agent.JavaAgent.lambda$drain$0(JavaAgent.java:67)
+[err] 	at com.ibm.javametrics.agent.JavaAgent$$Lambda$19.0000000028098840.accept(Unknown Source)
+[err] 	at java.util.HashMap.forEach(HashMap.java:1300)
+[err] 	at com.ibm.javametrics.agent.JavaAgent.drain(JavaAgent.java:66)
+[err] 	at com.ibm.javametrics.agent.JavaAgent$$Lambda$15.000000000C0DF550.run(Unknown Source)
+[err] 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:522)
+[err] 	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:319)
+[err] 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:191)
+[err] 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+[err] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1160)
+[err] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[err] 	at java.lang.Thread.run(Thread.java:811)
+[err] javametrics: Exception in listener: java.lang.IllegalStateException: write not allowed.  Most likely cause is that another Write or Close is in progress
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[AUDIT   ] CWWKT0017I: Web application removed (default_host): http://mc-testproject1-ee186d30-aba2-11e8-a6c1-idc-5686fc656d-gsfrm:9080/testproject1/
+[AUDIT   ] CWWKZ0009I: The application testproject1 has stopped successfully.
+[AUDIT   ] CWWKT0016I: Web application available (default_host): http://mc-testproject1-ee186d30-aba2-11e8-a6c1-idc-5686fc656d-gsfrm:9080/testproject1/
+[AUDIT   ] CWWKZ0003I: The application testproject1 updated in 0.746 seconds.
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[AUDIT   ] CWWKT0017I: Web application removed (default_host): http://mc-testproject1-ee186d30-aba2-11e8-a6c1-idc-5686fc656d-gsfrm:9080/testproject1/
+[AUDIT   ] CWWKZ0009I: The application testproject1 has stopped successfully.
+[AUDIT   ] CWWKT0016I: Web application available (default_host): http://mc-testproject1-ee186d30-aba2-11e8-a6c1-idc-5686fc656d-gsfrm:9080/testproject1/
+[AUDIT   ] CWWKZ0003I: The application testproject1 updated in 0.617 seconds.
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
+[WARNING ] Both application.rest.RootEndpoint#getIndex and application.rest.RootEndpoint#listResources are equal candidates for handling the current request which can lead to unpredictable results
